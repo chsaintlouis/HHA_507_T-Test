@@ -69,6 +69,7 @@ list(diabetes)
 Asian = diabetes[diabetes['race']=='Asian']
 AfricanAmerican = diabetes[diabetes['race']=='AfricanAmerican']
 ttest_ind(Asian['totalCountProcedures'], AfricanAmerican['totalCountProcedures'])
+## Ttest_indResult(statistic=-3.7897663070631253, pvalue=0.00015123463923369748)
 ## There is a significant difference with the number of lab procedures for African Americans and Asian population
 ##since the P-value is less than 0.05 we can reject the null hypothesis.
 ##
